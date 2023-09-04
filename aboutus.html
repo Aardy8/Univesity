@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>UNIVERSITY</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href="#"><img src="images/logo1.png"/></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa"  onclick="hidemenu()">&times;</i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="login1.php">LOGIN</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="transport.html">TRANSPORT</a></li>
+            </ul>   
+        </div>
+        <i class="fa"  onclick="showmenu()">&equiv;</i>
+    </nav>
+    <h1 class="about-head" style="color: white;">UNIVERSITY</h1>
+    <p  class="about-para" style="color: white;">The original Latin word universitas refers in general to "a number of persons associated into one body, a society, company, community, guild, corporation, etc". At the time of the emergence of urban town life and medieval guilds, specialized "associations of students and teachers with collective legal rights usually guaranteed by charters issued by princes, prelates, or the towns in which they were located" came to be denominated by this general term. Like other guilds, they were self-regulating and determined the qualifications of their members.
+
+        In modern usage the word has come to mean "An institution of higher education offering tuition in mainly non-vocational subjects and typically having the power to confer degrees," with the earlier emphasis on its corporate organization considered as applying historically to Medieval universities.
+        
+        The original Latin word referred to degree-awarding institutions of learning in Western and Central Europe, where this form of legal organisation was prevalent and from where the institution spread around the world.</p>
+    </section>
+
+
+
+    <!--- javascript -->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>

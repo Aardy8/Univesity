@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./icon.png">
+    <title>UNIVERSITY</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href="#"><img src="images/logo1.png"/></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa"  onclick="hidemenu()">&times;</i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="login1.php">LOGIN</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="transport.html">TRANSPORT</a></li>
+            </ul>   
+        </div>
+        <i class="fa"  onclick="showmenu()">&equiv;</i>
+    </nav>
+    <section class="course">
+        <h1 style="color: white; text-align: left;" >Under Graduate Degree</h1>
+        <br/>
+        <h2 style="color: white; text-align: left;" >B.E. - Mechanical Engineering</h2>
+        <h2 style="color: white; text-align: left;">B.E. - Mechatronics Engineering</h2>
+        <h2 style="color: white; text-align: left;">B.E. - Electrical and Electronics Engineering</h2>
+        <h2 style="color: white; text-align: left;">B.E. - Computer Science and Engineering</h2>
+        <h2 style="color: white; text-align: left;">B.Tech. - Information Technology</h2>
+        <h2 style="color: white; text-align: left;">B.E. - Electronics and Communication Engineering</h2>
+        <h2 style="color: white; text-align: left;">B.E. - Civil Engineering</h2>
+        <h2 style="color: white; text-align: left;">B.Tech. - Fashion Technology</h2>
+        <h2 style="color: white; text-align: left;">B.E. - Bio Medical Engineering</h2>
+        <h2 style="color: white; text-align: left;">B.Tech. - Artificial Intelligence & Data Science</h1>
+        <br/>
+        <h1 style="color: white; text-align: left;" >Post Graduate Degree</h1>
+        <br/>
+        <h2 style="color: white; text-align: left;">M.E. - Computer Science and Engineering</h1>
+        <h2 style="color: white; text-align: left; padding-bottom: 100px;">M.C.A - Master of Computer Application</h1>
+
+        </section>
+
+
+        <!--- javascript -->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
